@@ -164,24 +164,55 @@ The application is organized into three main tabs:
 - Simple navigation system to previous days
 - No multi-day view in V1
 
+## Wireframes and Mockups
+
+### Phase 1 - TodoList
+[Insert screenshot of main view with boolean habits]
+
+### Phase 2 - Categorization
+[Insert screenshot of categorized view]
+
+### Phase 3 - Administration
+[Insert screenshot of administration interface]
+
+### Phase 4 - Reporting
+[Insert screenshot of reporting views]
+
 ## Development Phases
 
-### Phase 1 - MVP
-- Supabase setup and database structure
-- Implementation of three main tabs
-- Basic daily input interface
-- Simple habit configuration
-- Basic data visualization in reporting tab
-- Day-by-day temporal navigation
+### Phase 1 - Categorized Habits TodoList
+- Supabase setup with habits and categories tables
+- Basic application structure
+- Single view with boolean habits list
+- Habits organized by categories:
+  * Sleep
+  * Health
+  * Work
+  * Nicotine
+  * Vice
+- Simple toggle for marking habits done/undone
+- Daily states storage in database
+- Basic temporal navigation (day by day)
+- Hardcoded habits and categories (JSON or database)
 
-### Phase 2 - Improvements
-- Input widget improvements
-- Reporting enhancement
-- Tracking counters
-- Trend calculations
-- Expense summary
+### Phase 2 - Administration
+- Habit configuration interface
+- Habits CRUD:
+  - Creation
+  - Modification
+  - Deletion
+  - Reordering
+- Labels and descriptions management
+- Categories management
 
-### Phase 3 - Advanced Features
+### Phase 3 - Reporting
+- Dedicated statistics view
+- Trends visualization
+- Performance tracking by category
+- Achievement history
+
+### Phase 4 - Advanced Features
+- Additional data types (numeric, expenses)
 - Data export (CSV/JSON)
 - UX improvements based on usage
 - Performance optimization
