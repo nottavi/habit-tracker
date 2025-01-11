@@ -157,6 +157,20 @@ L'application est organisée en trois onglets principaux :
 - Système simple de navigation vers les jours précédents
 - Pas de vue multi-jours dans la V1
 
+## Wireframes et Maquettes
+
+### Phase 1 - TodoList
+[Insérer screenshot de la vue principale avec les habitudes booléennes]
+
+### Phase 2 - Catégorisation
+[Insérer screenshot de la vue avec les catégories]
+
+### Phase 3 - Administration
+[Insérer screenshot de l'interface d'administration]
+
+### Phase 4 - Reporting
+[Insérer screenshot des vues de reporting]
+
 ## Reporting
 
 ### Suivi des Dépenses
@@ -208,22 +222,38 @@ L'application est organisée en trois onglets principaux :
 
 ## Phases de Développement
 
-### Phase 1 - MVP
-- Configuration de Supabase et structure de base de données
-- Mise en place des trois onglets principaux
-- Interface de saisie quotidienne basique
-- Configuration simple des habitudes
-- Visualisation basique des données dans l'onglet reporting
-- Navigation temporelle jour par jour
+### Phase 1 - TodoList d'Habitudes Catégorisées
+- Configuration de Supabase avec tables pour les habitudes et catégories
+- Structure de base de l'application
+- Vue unique avec liste d'habitudes booléennes
+- Habitudes organisées par catégories :
+  * Sommeil
+  * Santé
+  * Travail
+  * Vice (incluant Nicotine)
+- Toggle simple pour marquer une habitude comme faite/non faite
+- Stockage des états quotidiens en base de données
+- Navigation temporelle basique (jour par jour)
+- Habitudes et catégories codées en dur (JSON ou base de données)
 
-### Phase 2 - Améliorations
-- Amélioration des widgets de saisie
-- Enrichissement du reporting
-- Compteurs de suivi
-- Calculs des tendances
-- Récapitulatif des dépenses
+### Phase 2 - Administration
+- Interface de configuration des habitudes
+- CRUD des habitudes :
+  - Création
+  - Modification
+  - Suppression
+  - Réorganisation
+- Gestion des libellés et descriptions
+- Gestion des catégories
 
-### Phase 3 - Fonctionnalités Avancées
+### Phase 3 - Reporting
+- Vue dédiée aux statistiques
+- Visualisation des tendances
+- Suivi des performances par catégorie
+- Historique des réalisations
+
+### Phase 4 - Fonctionnalités Avancées
+- Types de données additionnels (numériques, dépenses)
 - Export des données (CSV/JSON)
 - Améliorations UX basées sur l'usage
 - Optimisations de performance
