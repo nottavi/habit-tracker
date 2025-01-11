@@ -166,17 +166,25 @@ The application is organized into three main tabs:
 
 ## Wireframes and Mockups
 
-### Phase 1 - TodoList
-[Insert screenshot of main view with boolean habits]
+Wireframes and Mockups
+Phase 1 - TodoList
+![Maquette de la v1](./docs/assets/phase1-todolist.png)
+Description : Vue principale montrant les habitudes booléennes organisées par catégories, avec un système de couleurs vert/rouge pour indiquer le statut
 
-### Phase 2 - Categorization
-[Insert screenshot of categorized view]
+Ce visuel est une bonne base pour la version 1 de l'application
+On peut déjà préparer les boutons pour le header (une roue crantée pour la partie settings, et un mini graph barchart pour la partie reporting)
 
-### Phase 3 - Administration
-[Insert screenshot of administration interface]
+Phase 2 - Categorization
+Show Image
+Description : Interface montrant la catégorisation des habitudes avec la navigation entre catégories
 
-### Phase 4 - Reporting
-[Insert screenshot of reporting views]
+Phase 3 - Administration
+Show Image
+Description : Panel d'administration permettant la gestion des habitudes et des catégories
+
+Phase 4 - Reporting
+Show Image
+Description : Dashboard de reporting montrant les tendances et statistiques
 
 ## Development Phases
 
